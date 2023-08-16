@@ -3,6 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/menu_telegram"
+        android:icon="@drawable/ic_telegram"
+        android:title="Join Telegram" />
+    <item
         android:id="@+id/menu_contact"
         android:icon="@drawable/ic_contact"
         android:title="Contact Us" />
