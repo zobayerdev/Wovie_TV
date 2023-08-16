@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
                     setTitle("Update");
                     FragmentManager fragmentManager = getSupportFragmentManager();
                     FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.frameLayout, new ImdbFragment());
+                    fragmentTransaction.replace(R.id.frameLayout, new UpdateFragment());
                     fragmentTransaction.commit();
 
 
